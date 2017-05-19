@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">成語四則運算</string>
+  <string name="idiom_list">數字成語複習</string>
+  <string name="num_game">四則運算練習</string>
+  <string name="idiom_game">成語四則運算</string>
+  <string name="kb1">一二三四五六七八九十</string>
+  <string name="kb2">么兩三四伍陸七八九十</string>
+  <string name="kb3">一雙三四五六七八九十</string>
+  <string name="cat">一么二兩雙三四五伍六陸七八九十百千萬</string>
+  <string name="tenten">十十</string>
+  <string name="twenty">二十</string>
+  <string name="hunhun">百百</string>
+  <string name="twohun">二百</string>  
+</resources>

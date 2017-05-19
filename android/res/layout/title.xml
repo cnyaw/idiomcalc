@@ -1,0 +1,33 @@
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center"
+  >
+  <ImageView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/title"
+    android:paddingTop="40dp"
+    android:paddingBottom="60dp"
+    />
+  <Button
+    android:id="@+id/btn_idiom_list"
+    android:text="@string/idiom_list"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+  <Button
+    android:id="@+id/btn_num_game"
+    android:text="@string/num_game"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+  <Button
+    android:id="@+id/btn_idiom_game"
+    android:text="@string/idiom_game"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+</LinearLayout>
