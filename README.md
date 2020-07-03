@@ -1,6 +1,7 @@
 # idiomcalc
 
 Android download https://play.google.com/store/apps/details?id=weilican.ic
+Play 線上玩玩看 https://agile-hollows-18660.herokuapp.com/game/idiomcalc/
 
 成語四則運算是一個結合數學四則運算的成語學習教育小遊戲，透過有趣的方式來學習和數字有關的成語，以及練習簡單的數學四則運算。
 
