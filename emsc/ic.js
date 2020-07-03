@@ -37,7 +37,7 @@ function checkQuiz() {
   }
   var s = validateQuiz(pre) + getQuizTips();
   pre.innerHTML = s;
-  pickQuit(Math.floor(Math.random() * 4));
+  pickQuiz(Math.floor(Math.random() * 4));
 }
 
 function fillNum(btn) {
@@ -63,7 +63,7 @@ function getQuizTips() {
   return s;
 }
 
-function pickQuit(type) {
+function pickQuiz(type) {
   Module.ccall('cPickQuiz', 'number', ['number'], [type]);
 }
 
