@@ -5,17 +5,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style type="text/css">
-  .btn {margin:2px;width:36px;height:36px;}
+  .btn button {margin:2px;width:36px;height:36px;}
 </style>
 </head>
 <body>
 &laquo;<a href = "../../">Home</a>
 <h1>成語四則運算</h1>
 <div id="output"></div>
-<div>
-  <button class='btn' id='btn1' onclick='fillNum(this)'>一</button><button class='btn' id='btn2' onclick='fillNum(this)'>二</button><button class='btn' onclick='fillNum(this)'>三</button><button class='btn' onclick='fillNum(this)'>四</button><button class='btn' id='btn5' onclick='fillNum(this)'>五</button><br/>
-  <button class='btn' id='btn6' onclick='fillNum(this)'>六</button><button class='btn' onclick='fillNum(this)'>七</button><button class='btn' onclick='fillNum(this)'>八</button><button class='btn' onclick='fillNum(this)'>九</button><button class='btn' onclick='fillNum(this)'>十</button><br/>
-  <button class='btn' onclick='shiftKb()'>&#8679;</button><button class='btn' onclick='fillNum(this)'>百</button><button class='btn' onclick='fillNum(this)'>千</button><button class='btn' onclick='fillNum(this)'>萬</button><button class='btn' onclick='undoFillNum()'>C</button>
+<div class='btn'>
+  <button id='btn1' onclick='fillNum(this)'>一</button><button id='btn2' onclick='fillNum(this)'>二</button><button onclick='fillNum(this)'>三</button><button onclick='fillNum(this)'>四</button><button id='btn5' onclick='fillNum(this)'>五</button><br/>
+  <button id='btn6' onclick='fillNum(this)'>六</button><button onclick='fillNum(this)'>七</button><button onclick='fillNum(this)'>八</button><button onclick='fillNum(this)'>九</button><button onclick='fillNum(this)'>十</button><br/>
+  <button onclick='shiftKb()'>&#8679;</button><button onclick='fillNum(this)'>百</button><button onclick='fillNum(this)'>千</button><button onclick='fillNum(this)'>萬</button><button onclick='undoFillNum()'>C</button>
 </div>
 <div class="footer">
   <p>Copyright &copy; 2020, Waync Cheng</p>
