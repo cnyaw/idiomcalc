@@ -128,7 +128,7 @@ void GenQuiz(quiz_list_type &quiz_list, int type) // type:0add,1sub,2mul,3div.
   }
 
   if (!quiz_list.empty()) {
-    quiz_index[type] = rand() % quiz_list.size();
+    quiz_index[type] = rand() % (int)quiz_list.size();
   }
 }
 
@@ -208,7 +208,7 @@ std::string PickQuiz(int type)
 
   for (int k = 0; k < PICK_QUIZ_MAX_TRY_COUNT; k++) { // Try PICK_QUIZ_MAX_TRY_COUNT times to find a quiz;
     int i = quiz_index[type];
-    quiz_index[type] = (quiz_index[type] + 1) % quiz[type].size();
+    quiz_index[type] = (quiz_index[type] + 1) % (int)quiz[type].size();
     const std::vector<num_type::const_iterator> &q = quiz[type][i];
     const idiom_list_type &la = q[0]->second, &lb = q[1]->second, &lc = q[2]->second;
     const idiom_type &a = la[rand() % la.size()];
@@ -257,7 +257,7 @@ std::string PickNumQuiz(int type, bool bAddBracketToAnswer)
 
   for (int k = 0; k < PICK_QUIZ_MAX_TRY_COUNT; k++) { // Try PICK_QUIZ_MAX_TRY_COUNT times to find a quiz;
     int i = quiz_index[type];
-    quiz_index[type] = (quiz_index[type] + 1) % quiz[type].size();
+    quiz_index[type] = (quiz_index[type] + 1) % (int)quiz[type].size();
     const std::vector<num_type::const_iterator> &q = quiz[type][i];
     const idiom_list_type &la = q[0]->second, &lb = q[1]->second, &lc = q[2]->second;
     const idiom_type &a = la[rand() % la.size()];
